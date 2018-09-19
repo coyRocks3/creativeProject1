@@ -4,4 +4,36 @@ body {
 
 h1, h2, h3 {
     color: #e68a00;
+    font-family: 'Tangerine', serif;
+}
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+}
+ul {
+    list-style-position: inside;
+}
+
+.toolbarButton {
+    display: inline-block;
+    background-color: #ff8533;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+img {
+    height: 300px;
 }
